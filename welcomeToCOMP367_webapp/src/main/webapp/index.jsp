@@ -3,6 +3,7 @@
     <title>Welcome Page</title>
 </head>
 <body>
+    <h1> greetings Professor Li </h1>
     <h1 id="greetingsEl"></h1>
     <script>
         let greetingsEl = document.getElementById("greetingsEl");
