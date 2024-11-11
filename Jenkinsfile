@@ -8,16 +8,16 @@ pipeline {
 
     stages {
         
-	stage('Checkout') {
-            steps {
-                git branch: 'main', url: 'https://github.com/TLazovic-CentennialCollege/lab2q2_welcomeToCOMP367_webapp.git'
-            }
-        }
+	// stage('Checkout') {
+ //            steps {
+ //                git branch: 'main', url: 'https://github.com/TLazovic-CentennialCollege/lab2q2_welcomeToCOMP367_webapp.git'
+ //            }
+ //        }
         
-	stage('Maven Build') {
-            steps {
-                sh 'mvn -Dmaven.test.failure.ignore=true clean package'
-            }
-        }
-    }
+	// stage('Maven Build') {
+ //            steps {
+ //                sh 'mvn -Dmaven.test.failure.ignore=true clean package'
+ //            }
+ //        }
+ //    }
 }
